@@ -1,0 +1,499 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+}
+
+/* navbar */
+nav img {
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+}
+
+nav div {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: fit-content;
+}
+
+nav div p {
+    font-weight: 600;
+    transition: .3s;
+    cursor: pointer;
+}
+
+nav div p:hover {
+    color: rgb(255, 206, 115);
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Home */
+.home {
+    color: orange;
+    border-bottom: 2px solid;
+    width: fit-content;
+    padding: 0 5px;
+}
+
+.home:hover {
+    color: orange;
+}
+
+/* Hero */
+.hero-section {
+    background-color: rgb(255, 241, 215);
+    height: 100vh;
+}
+
+.hero-section .hero {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.hero-head {
+    color: rgb(66, 66, 255);
+    font-size: 300px;
+    font-weight: 900;
+}
+
+.circle-text {
+    align-self: end;
+    width: 60%;
+    height: fit-content;
+    display: flex;
+    gap: 30px;
+}
+
+.circle {
+    background-color: orange;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.hero-text h2 {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+/* Section 2 */
+.sec2 {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.sec2 h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.sec2 button {
+    background-color: rgb(66, 66, 255);
+    color: white;
+    width: 300px;
+    height: fit-content;
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.sec2 button:hover {
+    filter: brightness(70%);
+}
+
+
+/* Section 3 */
+.section3 {
+    height: 85vh;
+    background-image: url('images/section3-background.jpg');
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+.section3 div {
+    height: 100%;
+}
+
+.section3 div h1 {
+    color: white;
+    font-weight: 900;
+    font-size: 200px;
+    text-transform: uppercase;
+}
+
+/* Numbers section */
+.numbers {
+    background-color: rgb(255, 241, 215);
+    padding: 50px 0;
+}
+
+.num {
+    flex: 1 1 25%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.num p {
+    font-size: 28px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.num span {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+/* Section 4 */
+.section4 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    padding: 70px 0;
+    gap: 30px;
+}
+
+.section4 .sec4-text {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 0;
+}
+
+.section4 .sec4-text h1 {
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.section4 .sec4-text div {
+    width: 60%;
+    align-self: flex-end;
+}
+
+.section4 .sec4-text div button {
+    background-color: rgb(66, 66, 255);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 35px;
+    font-weight: 600;
+}
+
+.section4 .sec4-text div button:hover {
+    filter: brightness(70%);
+}
+
+.section4 .sec4-img {
+    width: 30%;
+    height: 100%;
+}
+
+.section4 .sec4-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Section 5 */
+.section5 {
+    background-color: rgb(66, 66, 255);
+    color: white;
+    height: 70vh;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: hidden;
+}
+
+.section5 div h1 {
+    font-weight: 900;
+    font-size: 150px;
+}
+
+.section5 div h2 {
+    font-size: 40px;
+}
+
+
+
+.section6{
+    color: white;
+    background-color: rgb(255, 132, 0);
+    padding:  50px 0;
+}
+.section6 div h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.section6 div div{
+    width: 100%;
+    border-bottom: 3px solid white;
+    padding: 30px 10px;
+}
+.section6 div div h2{
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.section6 div div p{
+    font-size: 20px;
+}
+.section6 div button{
+    background-color: rgb(66, 66, 255);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 35px;
+    font-weight: 600; 
+}
+.section6 div button:hover{
+    filter: brightness(70%);
+}
+
+
+.gallery-section{
+    position: relative;
+    gap: 150px;
+    z-index: 2;
+}
+.orange-line{
+    background-color: rgb(255, 132, 0);
+    width: 102%;
+    height: 300px;
+    margin-left: -20px;
+    position: absolute;
+    z-index: 1;
+}
+.gallery-section div{
+    width: 50%;
+    display: flex; 
+    flex-direction: column;
+    gap: 30px;
+}
+.gallery-section div div{
+    width: 100%;
+}
+.gallery-section div div img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.gallery-section div div p{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+
+.client{
+    background-color: rgb(255, 241, 215);
+    padding-top: 100px;
+}
+.clients-head{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 40px;
+    font-weight: 900;
+}
+
+.clients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.clients img {
+    width: 300px;
+    height: 500px;
+    z-index: -2;
+    object-fit: cover;
+    margin-bottom: 50px;
+}
+.clients h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+}
+.clients p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.clients button {
+    height: fit-content;
+    border: none;
+    background: rgb(255, 132, 0);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 15px 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 46%;
+}
+
+.clients button i{
+    color: white;
+    font-size: 30px;
+}
+
+#right-btn {
+    right: 0;
+}
+
+
+
+#left-btn{
+    z-index: 0;
+    left: 0;
+}
+
+
+
+
+footer{
+    background-color: rgb(66, 66, 255);
+    padding: 50px 0;
+    overflow-y: hidden;
+}
+.email-inp{
+    width: 450px;
+    padding: 12px;
+    border: none;
+    border-radius: 50px;
+}
+.foot-btn{
+    color: white;
+    background-color: rgb(255, 132, 0);
+    padding: 12px 30px;
+    border: none;
+    border-radius: 50px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+.foot-btn:hover{
+    filter: brightness(80%);
+}
+footer .container h1{
+    color: white;
+    font-size: 150px;
+    font-weight: 900;
+}
+footer .container form{
+    width: fit-content;
+    height: fit-content;
+    display: block;
+}
+footer .container p{
+    color: white;
+}
+
+
+
+
+/* Animations */
+.left {
+    animation-duration: 1s;
+    animation-name: leftToRight;
+    animation-timing-function: ease-in;
+}
+
+.right {
+    animation-duration: 1s;
+    animation-name: rightToLeft;
+    animation-timing-function: ease-in;
+}
+
+.zoom {
+    animation-duration: 1s;
+    animation-name: zoom;
+    animation-timing-function: ease-in;
+}
+
+.top {
+    animation-duration: 1s;
+    animation-name: top;
+    animation-timing-function: ease-in;
+}
+
+.bottom {
+    animation-duration: 1s;
+    animation-name: bottom;
+    animation-timing-function: ease-in;
+}
+
+@keyframes leftToRight {
+    from {
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes rightToLeft {
+    from {
+        transform: translateX(50%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes top {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes bottom {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
