@@ -60,7 +60,7 @@ const rightBtn = document.getElementById('right-btn');
 const leftBtn = document.getElementById('left-btn');
 const h2 = document.getElementById('h2');
 const Name = document.getElementById('client-name');
-let pictures = ['images/client1.jpg','images/client2.jpg','images/client3.jpg'];
+let pictures = ["C:\Users\Acer\Desktop\Anim Template\images\Client1.jpg",'images/client2.jpg','images/client3.jpg'];
 let names = ['Valery Hudson','Nick Perry','Kate Mclarson'];
 let opinions = ['Ut enim ad minim veniam,  ullamco laboris nisi ut aliquip ex ea commodo consequat.','Ut enim ad minim veniam, quis nostrud exercitation ullamco ex ea commodo consequat.','Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'];
 
