@@ -224,6 +224,9 @@
 
 
 @media (max-width: 575px){
+    .hero-section {
+        height: 70vh;
+    }
     .hero-head{
         font-size: 60px;
     }
